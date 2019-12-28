@@ -3,6 +3,7 @@ class Geld(object):
                  'GBP':1.39480,
                  'EUR':1.0,
                  'JPY':0.007168
+                 'TL': 0.15  
                  }
     def __init__(self, waehrung, betrag):
         self.waehrung = waehrung
