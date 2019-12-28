@@ -17,6 +17,8 @@ class Geld(object):
         summe = Geld(self.waehrung, summe_in_euro/self.wechselkurs[self.waehrung])
         return summe
 
+
+# Beispiele
 hotelrechnung = Geld('USD', 123.45)
 mietwagen = Geld('EUR', 527.30)
 
