@@ -20,7 +20,8 @@ hotelrechnung = Geld('USD', 123.45)
 mietwagen = Geld('EUR', 527.30)
 
 summe1 = hotelrechnung.add(mietwagen)
-print(summe1.waehrung, round(summe1.betrag, 1))
+print(summe1.waehrung, round(summe1.betrag, 2))
 
 summe2 = mietwagen.add(hotelrechnung)
-print(summe2.waehrung, round(summe2.betrag, 1))
+print(summe2.waehrung, round(summe2.betrag, 2))
+
